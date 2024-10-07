@@ -6,6 +6,9 @@ recept = { # Sleutel is ingredi?nt, waarde is hoeveelheid
     "Worsten": 400
 }
 print(f"Recept voor worst met wortelen en erwten.")
+personen = int(input(f"Met hoeveel eten jullie: "))
 for ingredient, hoeveelheid in recept.items():
-    print(f"-{ingredient}: {hoeveelheid} gr.")
+    recept[ingredient] = (recept[ingredient]//4)*personen
+    print(f"-{ingredient}: {recept[ingredient]} gr.")
+    
     
