@@ -5,3 +5,7 @@ recept = { # Sleutel is ingredi?nt, waarde is hoeveelheid
     "erwten": 300,
     "Worsten": 400
 }
+print(f"Recept voor worst met wortelen en erwten.")
+for ingredient, hoeveelheid in recept.items():
+    print(f"-{ingredient}: {hoeveelheid} gr.")
+    

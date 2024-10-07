@@ -7,3 +7,6 @@ steden_temp = { # Sleutel is stad, waarde is temp
     "Luik": 23,
     "Namen": 24
 }
+stad_gebruiker = input(f"Naar welke stad ga je naar toe: ")
+stad = steden_temp.get(f"{stad_gebruiker}", "???")
+print(f"Het is hier {stad} °C ")
