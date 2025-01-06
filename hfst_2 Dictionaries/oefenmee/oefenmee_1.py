@@ -1,3 +1,5 @@
+import test_module
+
 dino_klassementen = {
     "carnivoor": "giganotosaurus",
     "omnivoor": "meawing",

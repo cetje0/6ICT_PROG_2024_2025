@@ -28,3 +28,11 @@ laptop_config = {
     "supplier": "???",
     "supplier_2": {"id": 1, "name": "SignPost"}
 }
+# laptop_config["assigned_to"]["created_at"]["date"] = '2021-11-09'
+# laptop_config["supplier"] = laptop_config["supplier_2"]
+# laptop_config.pop("supplier_2")
+# print(laptop_config)
+for index_hoofd, subdic in laptop_config.items():
+    for index_sub, element in index_hoofd.items():
+        if element == "id":
+            print(f'{laptop_config[element]}')
