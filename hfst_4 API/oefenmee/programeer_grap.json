@@ -1,0 +1,57 @@
+{
+    "error": false,
+    "amount": 3,
+    "jokes": [
+        {
+            "category": "Christmas",
+            "type": "twopart",
+            "setup": "Who hides in the bakery at Christmas?",
+            "delivery": "A mince spy!",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 250,
+            "safe": true,
+            "lang": "en"
+        },
+        {
+            "category": "Christmas",
+            "type": "twopart",
+            "setup": "What does Santa suffer from if he gets stuck in a chimney?",
+            "delivery": "Claustrophobia!",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 241,
+            "safe": true,
+            "lang": "en"
+        },
+        {
+            "category": "Christmas",
+            "type": "twopart",
+            "setup": "Why does Santa go down the chimney?",
+            "delivery": "Because it soots him!",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 253,
+            "safe": true,
+            "lang": "en"
+        }
+    ]
+}
