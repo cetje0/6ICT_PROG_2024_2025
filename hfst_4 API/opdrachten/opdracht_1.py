@@ -11,3 +11,7 @@ Advies 3:
     Print || No advice slips found matching that search term.
 
 """
+import json
+import requests
+url = "https://api.adviceslip.com/"
+response_json = requests.get(url).json() # Haal JSON uit response.

@@ -5,8 +5,8 @@
         {
             "category": "Christmas",
             "type": "twopart",
-            "setup": "Who hides in the bakery at Christmas?",
-            "delivery": "A mince spy!",
+            "setup": "What kind of motorbike does Santa ride?",
+            "delivery": "A Holly Davidson!",
             "flags": {
                 "nsfw": false,
                 "religious": false,
@@ -15,24 +15,7 @@
                 "sexist": false,
                 "explicit": false
             },
-            "id": 250,
-            "safe": true,
-            "lang": "en"
-        },
-        {
-            "category": "Christmas",
-            "type": "twopart",
-            "setup": "What does Santa suffer from if he gets stuck in a chimney?",
-            "delivery": "Claustrophobia!",
-            "flags": {
-                "nsfw": false,
-                "religious": false,
-                "political": false,
-                "racist": false,
-                "sexist": false,
-                "explicit": false
-            },
-            "id": 241,
+            "id": 244,
             "safe": true,
             "lang": "en"
         },
@@ -50,6 +33,23 @@
                 "explicit": false
             },
             "id": 253,
+            "safe": true,
+            "lang": "en"
+        },
+        {
+            "category": "Christmas",
+            "type": "twopart",
+            "setup": "Why does Santa have three gardens?",
+            "delivery": "So he can 'ho ho ho'!",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 242,
             "safe": true,
             "lang": "en"
         }
