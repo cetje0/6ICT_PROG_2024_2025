@@ -1,5 +1,7 @@
 # Maak de klasse Familie aan zoals omschreven in opdracht 1.
-
+class Familie:
+    ras = "mens"
+    def geslacht(self, )
 
 
 " Via onderstaande code kan je de klasse Familie testen. "
